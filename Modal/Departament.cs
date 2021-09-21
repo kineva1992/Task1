@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace Task1.Modal
@@ -7,6 +8,15 @@ namespace Task1.Modal
     class Departament
     {
         public int Id { get; set; }
+
+        [MaxLength(100)]
+        [Display(Name="Департамент работы")]
         public string Name { get; set; }
+
+        public ICollection<Employee> Employees { get; set; }
+        //public Departament()
+        //{
+        //    Employees = new List<Employee>();
+        //}
     }
 }
