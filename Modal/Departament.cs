@@ -13,7 +13,7 @@ namespace Task1.Modal
         [Display(Name="Департамент работы")]
         public string Name { get; set; }
 
-        public ICollection<Employee> Employees { get; set; }
+        public List<Employee> Employees { get; set; }
         //public Departament()
         //{
         //    Employees = new List<Employee>();
