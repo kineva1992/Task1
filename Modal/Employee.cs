@@ -19,5 +19,6 @@ namespace Task1.Modal
 
         public int? DepartamentId { get; set; }
         public Departament Departament { get; set; }
+        
     }
 }

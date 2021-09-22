@@ -14,9 +14,6 @@ namespace Task1.Modal
         public string Name { get; set; }
 
         public List<Employee> Employees { get; set; }
-        //public Departament()
-        //{
-        //    Employees = new List<Employee>();
-        //}
+
     }
 }
