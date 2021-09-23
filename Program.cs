@@ -9,11 +9,9 @@ namespace Task1
     {
         static void Main(string[] args)
         {
-          
             ViewsMethods.Task1();
             ViewsMethods.Task2();
             ViewsMethods.Task3();
-
         }
     }
 }
